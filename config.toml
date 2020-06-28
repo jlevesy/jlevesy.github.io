@@ -1,0 +1,144 @@
+# Page settings
+
+baseURL = "https://jlevesy.github.io/"
+languageCode = "en"
+title = ""
+theme = "devresume"
+
+[params]
+    author = "Julien Levesy"
+    description = "@jlevesy's resume"
+    primaryColor = "#FF3366"
+    textPrimaryColor = "#2EC4B6"
+
+    [params.profile]
+        enable = true
+        name = "Julien Levesy"
+        tagline = "Software Engineer"
+        avatar = "avatar.jpg"
+
+    [params.summary]
+        enable = true
+        text = "Product centric software engineer who loves to learn and adapt. I'm dedicated to build reliable software, from frontend to backend. Convinced team player."
+
+    [params.contact]
+        enable = true
+        location = "Lyon (France)"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+33 7 68 03 36 39"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "contact@jlevesy.net"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://jlevesy.github.io"
+        text = "https://jlevesy.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Golang"
+        [[params.skills.list.items]]
+        details = "Distributed system"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University College London"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+        dates = "2014 - 2016"
+        company = "Amazon"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+    [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Running, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/jlevesy"
+        title = "jlevesy"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/jlevesy"
+        title = "jlevesy"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/jlevesy"
+        title = "@jlevesy"
