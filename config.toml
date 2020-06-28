@@ -1,0 +1,195 @@
+# Page settings
+
+baseURL = "https://jlevesy.github.io/"
+languageCode = "en"
+title = "/home/jlevesy"
+theme = "devresume"
+
+[params]
+  author = "Julien Levesy"
+  description = "@jlevesy's resume"
+  primaryColor = "#FF3366"
+
+  [params.profile]
+    enable = true
+    name = "Julien Levesy"
+    tagline = "Software Engineer"
+    avatar = "avatar.jpg"
+
+  [params.summary]
+    enable = true
+    text = "Product centered software engineer who loves to learn and adapt. I'm dedicated to building meaningful and reliable products, from the frontend to the infrastructure and from early stage proposals to production, including customer support! I strongly believe that teamwork and communication are essential to a successful product. Having lived abroad and traveled a lot, I'm especially at ease with (and definitely looking for!) multicultural and diverse work environments. If you think that I might be a fit, feel free to contact me! I'll always be happy to talk to you!"
+
+  [params.contact]
+    enable = true
+    location = "Lyon (France)"
+    [[params.contact.list]]
+      icon = "fas fa-envelope-square"
+      url = "mailto:jlevesy+resume@gmail.com"
+      text = "jlevesy@gmail.com"
+    [[params.contact.list]]
+      icon = "fas fa-globe"
+      url = "https://jlevesy.github.io"
+      text = "https://jlevesy.github.io"
+
+  [params.skills]
+    enable = true
+
+    [[params.skills.list]]
+    title = "Technical"
+
+      [[params.skills.list.items]]
+      details = "Golang"
+      [[params.skills.list.items]]
+      details = "Ruby"
+      [[params.skills.list.items]]
+      details = "Container orchestration (Kubernetes)"
+      [[params.skills.list.items]]
+      details = "Automation"
+      [[params.skills.list.items]]
+      details = "Production Systems"
+      [[params.skills.list.items]]
+      details = "Linux and System administration"
+
+    [[params.skills.list]]
+    title = "Professional"
+
+      [[params.skills.list.items]]
+      details = "Team player"
+      [[params.skills.list.items]]
+      details = "Effective communication"
+      [[params.skills.list.items]]
+      details = "Pragmatic problem solver"
+
+    [[params.skills.list]]
+    title = "Things I'm interested in"
+
+      [[params.skills.list.items]]
+      details = "Databases"
+      [[params.skills.list.items]]
+      details = "Cycling"
+      [[params.skills.list.items]]
+      details = "Photography"
+      [[params.skills.list.items]]
+      details = "Climbing"
+      [[params.skills.list.items]]
+      details = "Travels"
+
+  [params.languages]
+    enable = true
+
+    [[params.languages.list]]
+    name = "French"
+    level = "Native"
+    [[params.languages.list]]
+    name = "English"
+    level = "Fluent"
+    [[params.languages.list]]
+    name = "Spanish"
+    level = "Intermediate"
+
+  [params.education]
+    enable = true
+
+    [[params.education.list]]
+    degree = "MSc in Computer Science"
+    university = "Institut National des Sciences Appliquées (INSA) de Lyon"
+    dates = "2007 - 2012"
+
+  [params.experience]
+    enable = true
+
+    [[params.experience.list]]
+      title = "VP of Engineering"
+      dates = "2020 - Now"
+      company = "Upfluence"
+      location = "Lyon"
+      link = "https://upfluence.com"
+      details = "While still being involved on a daily basis at a technical level, this position is also the first time I am assuming a leadership role in a team. On the technical side, I wrote amongst other things the support for Instagram stories, an ETL pipeline for email analysis, performed various infrastructure updates and contributed to major new features of the platform. As a team leader, I succesfully set up a developement workflow from the feature inception to production. This contribution greatly improved the team productity while ensuring an acceptable workload and provides a better visibility to other stakeholders of the company."
+
+    [[params.experience.list]]
+      title = "Teacher"
+      dates = "2020 - Now"
+      company = "ENSG"
+      location = "Lyon"
+      link = "https://cicd-lectures.github.io/slides/"
+      details = "For a couple of years, with @DamienDuportal we have been giving a 3 days lecture to a MSc level group of students related to CI and CD, tests and \"good\" practices of software developement. This lecture aims to be the more practical possible and relies on SaaS tools like gitpod for students development environments and GitHub actions as CI/CD engine to ensure that."
+
+    [[params.experience.list]]
+      title = "Senior Software Engineer"
+      dates = "2018 - 2020"
+      company = "Traefik Labs"
+      location = "Lyon"
+      link = "https://traefik.io"
+      details = "Involved in the Traefik Enterprise team, I contributed to numerous features embedded in the product. I proposed and implemented many improvements on it and impacted positively its reliability. For instance setting up an end to end testing framework or the systematic writing of unit tests. I was also very involved with the support team and regulary participated to client facing calls. Traefik Labs was my first experience in a truly distributed and multicultural company where clear communication and inclusion are a must, and I have to say that I loved this kind of environment."
+
+    [[params.experience.list]]
+      title = "Software Engineer"
+      dates = "2017 - 2018"
+      company = "Vivlio"
+      link = "https://vivlio.com"
+      location = "Lyon"
+      details = "Started first as Software developer, my previous experience with server management made me quickly get involved with the operations as well. I was put in charge of important subjects like moving our ecommerce websites to HTTPS, rewriting and extending several applications as developper and deploying a whole new monitoring system based on Datadog. I also had the opportunity to teach an intern during my time and I found it to be a rewarding experience."
+
+    [[params.experience.list]]
+      title = "Software Engineer"
+      dates = "2015 - 2017"
+      company = "Upfluence"
+      link = "https://upfluence.com"
+      location = "Lyon / San Francisco"
+      details = "As the first company employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finaly lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm proud to see that many years later, Upfluence is a successful company and some of my code is still running at its core"
+
+    [[params.experience.list]]
+      title = "Software Engineer"
+      dates = "2014 - 2015"
+      company = "Worldline by Atos"
+      location = "Lyon"
+      link = "https://worldline.com/"
+      details = "Worked as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like [this presentation](https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation) as I understood how important it is on projects of this scale."
+
+    [[params.experience.list]]
+      title = "Junior Software Engineer"
+      dates = "2012 - 2014"
+      company = "AwoX"
+      location = "Montpellier"
+      link = "https://awox.com/"
+      details = "First experience as software engineer, I had two primary missions in that position. First was to build middleware and user interface application for a \"second screen\" set top box system, using DLNA, linux and web technologies. Second was to build a multiplatform desktop application dedicated to control Awox Striim series devices. It features a DLNA control point, and also custom features like devices zoning and lighting control over network."
+
+  [params.projects]
+    enable = true
+
+    [[params.projects.list]]
+    title = "Traefik Enterprise Edition"
+    meta = "golang docker kubernetes swarmkit"
+    tagline = "Traefik Enterprise Edition is a natively distributed verion of [Traefik](https://traefik.io) the open source edge router. Leveraging Docker's very own Swarmkit at its core, it provides all the features of the open source version plus several advanced features like native authentication and authorization systems, distributed rate limiting and recently the integration of Traefik Labs service mesh implementation, [Maesh](https://mae.sh). More information can be found on [Traefik lab's website](https://traefik.io/traefik-enterprise)"
+
+    [[params.projects.list]]
+    title = "Upfluence Search Engine"
+    meta = "golang ruby python elasticsearch coreos"
+    tagline = "The Upfluence search engine allows to easily identify relevant influencers to your brand, get in touch with them, efficiently define an implement an advertising campaign and to finish, easily measure its reach and impact."
+
+    [[params.projects.list]]
+    title = "Sind (Swarm In Docker)"
+    meta = "golang"
+    tagline = "Inspired by all the work done in the Kubernetes ecosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environment, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind"
+
+    [[params.projects.list]]
+    title = "Various Opensource Contributions"
+    meta = "golang rust c++"
+    tagline = "The contributions I'm most proud of are the one I did on [firefox's javascript JIT engine](https://bugzilla.mozilla.org/user_profile?user_id=459021) where I implemented various optimizations of the generated code. Recently I've contributed to [yaegi](https://github.com/containous/yaegi/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy), Traefik Labs's very own golang interpreter and [i3-status-rust](https://github.com/greshake/i3status-rust/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy) because I love i3wm and wanted to learn a bit of rust !"
+
+  [params.social]
+    enable = true
+
+    [[params.social.list]]
+    icon = "fab fa-github-square"
+    url = "//github.com/jlevesy"
+    title = "jlevesy"
+    [[params.social.list]]
+    icon = "fab fa-linkedin"
+    url = "//linkedin.com/in/julien-levesy-5b80ab149/"
+    title = "jlevesy"
+    [[params.social.list]]
+    icon = "fab fa-twitter-square"
+    url = "//twitter.com/jlevesy"
+    title = "@jlevesy"
