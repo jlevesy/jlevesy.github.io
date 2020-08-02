@@ -18,7 +18,7 @@ theme = "devresume"
 
   [params.summary]
     enable = true
-    text = "Product centered software engineer who loves to learn and adapt. I'm dedicated to build meaningful and reliable products, from the frontend to the infrastructure and from early stage proposals to production, including customer facing support! I strongly believe that teamwork and communication are essential to a successful product and I vouch for RFCs and proposals for decision making (no decisions in meetings). Having lived abroad and traveled a lot, I'm especially at ease with (and definitely looking for!) multicultural and diverse work environements. If you think that I might be a fit feel free to contact me, I'll always be happy to talk to you!"
+    text = "Product centered software engineer who loves to learn and adapt. I'm dedicated to build meaningful and reliable products, from the frontend to the infrastructure and from early stage proposals to production, including customer support! I strongly believe that teamwork and communication are essential to a successful product and I vouch for RFCs and proposals for decision making. Having lived abroad and traveled a lot, I'm especially at ease with (and definitely looking for!) multicultural and diverse work environements. If you think that I might be a fit feel free to contact me, I'll always be happy to talk to you!"
 
   [params.contact]
     enable = true
@@ -30,7 +30,7 @@ theme = "devresume"
     [[params.contact.list]]
       icon = "fas fa-envelope-square"
       url = "mailto:#"
-      text = "contact@jlevesy.net"
+      text = "jlevesy@gmail.com"
     [[params.contact.list]]
       icon = "fas fa-globe"
       url = "https://jlevesy.github.io"
@@ -90,31 +90,31 @@ theme = "devresume"
       title = "Senior Software Engineer"
       dates = "2018 - now"
       company = "Containous"
-      details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      details = "Involved in the Traefik Enterprise team, I contributed to a large majority of the features implemented in the product. I proposed and realized many improvements on it and impacted positively its reliability by leading various efforts like setting up maintaining an end to end testing framework. I am also very involved with the support team and regulary participate on client facing calls. Containous is my first experience in a truly distributed and multicultural company where clear communication and inclusion are a must, and I have to say that I'm loving this kind of environement."
 
     [[params.experience.list]]
       title = "Software Engineer / SRE"
       dates = "2017 - 2018"
       company = "Vivlio (The Ebook Alternative)"
-      details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+      details = "Started first as Software developer, my previous experience with server management and operations made me quickly touch to the operations as well. I was put in charge of important subjects like moving our ecommerce websites to HTTPS, rewriting and extending several applications as developper and setuping a whole new monitoring system based on Datadog. I also had the opportunity to teach an intern during my time and I found it to be a rewarding experience."
 
     [[params.experience.list]]
       title = "Software Engineer"
       dates = "2015 - 2017"
       company = "Upfluence"
-      details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+      details = "As the first company employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products around content marketing and native advertising which finaly lead Upfluence search engine to be one of the most powerful influencer search engine. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production management and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm always proud to see that 3 years later, Upfluence is a successful company and some of my code is still running at its core!"
 
     [[params.experience.list]]
       title = "Software Engineer"
       dates = "2014 - 2015"
       company = "Worldline by Atos"
-      details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+      details = "Worked as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation, as I understood how important it is on projects of this scale."
 
     [[params.experience.list]]
       title = "Junior Software Engineer"
       dates = "2012 - 2014"
       company = "AwoX"
-      details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+      details = "First experience as software engineer, I had two primary missions in that position. First was to build middleware and user interface application for a \"second screen\" set top box system, using DLNA, linux and web technologies. Second was to build a multiplatform desktop application dedicated to control Awox Striim series devices. It features a DLNA control point, and also custom features like devices zoning and lighting control over network."
 
   [params.projects]
     enable = true
@@ -127,18 +127,17 @@ theme = "devresume"
     [[params.projects.list]]
     title = "Upfluence Search Engine"
     meta = "golang ruby python elasticsearch coreos"
-    tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+    tagline = "The Upfluence search engine allows to easily identify relevant influencers to your brand, get in touch with them, efficiently define an implement an advertising campaign and to finish, easily measure its reach and impact."
 
     [[params.projects.list]]
     title = "Sind (Swarm In Docker)"
     meta = "golang, Open Source"
-    tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+    tagline = "Inspired by all the work done in the Kubernetes echosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environement, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind, proposals welcomed!"
 
     [[params.projects.list]]
     title = "Various Open Source Contributions"
     meta = "golang, rust, c++"
-    tagline = "The contributions I'm most proud of are the one I did on firefox's javascript JIT engine where I implemented various optimisations. Recently I've contributed to yaegi (https://github.com/containous/yaegi), Containous's very own golang interpreter and i3-status-rust (https://github.com/greshake/i3-status-rust) because I love i3 and wanted to learn a bit of Rust, and I loved it!"
-
+    tagline = "The contributions I'm most proud of are the one I did on firefox's javascript JIT engine where I implemented various optimisations (https://bugzilla.mozilla.org/user_profile?user_id=459021) of the generated code. Recently I've contributed to yaegi (https://github.com/containous/yaegi), Containous's very own golang interpreter and i3-status-rust (https://github.com/greshake/i3-status-rust) because I love i3wm and wanted to learn a bit of Rust !"
 
     [params.information]
       enable = true
