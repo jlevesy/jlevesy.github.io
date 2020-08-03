@@ -109,13 +109,13 @@ theme = "devresume"
       title = "Software Engineer"
       dates = "2015 - 2017"
       company = "Upfluence"
-      details = "As the first company employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finaly lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm always proud to see that 3 years later, Upfluence is a successful company and some of my code is still running at its core!"
+      details = "As the first company employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finaly lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm always proud to see that 3 years later, Upfluence is a successful company and some of my code is still running at its core"
 
     [[params.experience.list]]
       title = "Software Engineer"
       dates = "2014 - 2015"
       company = "Worldline by Atos"
-      details = "Worked as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation as I understood how important it is on projects of this scale."
+      details = "Worked as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like [this presentation](https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation) as I understood how important it is on projects of this scale."
 
     [[params.experience.list]]
       title = "Junior Software Engineer"
@@ -128,8 +128,8 @@ theme = "devresume"
 
     [[params.projects.list]]
     title = "Traefik Enterprise Edition"
-    meta = "golang, docker, kubernetes, swarmkit"
-    tagline = "Traefik Enterprise Edition is a natively distributed verion of Traefik (https://traefik.io) the open source edge router. Leveraging Docker's very own Swarmkit at its core, it provides all the features of the open source version plus several advanced features like native authentication and authorization systems, distributed rate limiting and recently the integration of Containous service mesh implementation, Maesh. More information can be found on the Containous website: https://containo.us/traefikee"
+    meta = "golang docker kubernetes swarmkit"
+    tagline = "Traefik Enterprise Edition is a natively distributed verion of [Traefik](https://traefik.io) the open source edge router. Leveraging Docker's very own Swarmkit at its core, it provides all the features of the open source version plus several advanced features like native authentication and authorization systems, distributed rate limiting and recently the integration of Containous service mesh implementation, [Maesh](https://mae.sh). More information can be found on [Containous's website](https://containo.us/traefikee)"
 
     [[params.projects.list]]
     title = "Upfluence Search Engine"
@@ -138,13 +138,13 @@ theme = "devresume"
 
     [[params.projects.list]]
     title = "Sind (Swarm In Docker)"
-    meta = "golang, Open Source"
-    tagline = "Inspired by all the work done in the Kubernetes echosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environement, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind, proposals welcomed!"
+    meta = "golang"
+    tagline = "Inspired by all the work done in the Kubernetes echosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environement, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. [Check it out](https://github.com/jlevesy/sind), proposals welcomed!"
 
     [[params.projects.list]]
     title = "Various Open Source Contributions"
-    meta = "golang, rust, c++"
-    tagline = "The contributions I'm most proud of are the one I did on firefox's javascript JIT engine where I implemented various optimizations (https://bugzilla.mozilla.org/user_profile?user_id=459021) of the generated code. Recently I've contributed to yaegi (https://github.com/containous/yaegi), Containous's very own golang interpreter and i3-status-rust (https://github.com/greshake/i3-status-rust) because I love i3wm and wanted to learn a bit of Rust !"
+    meta = "golang rust c++"
+    tagline = "The contributions I'm most proud of are the one I did on [firefox's javascript JIT engine](https://bugzilla.mozilla.org/user_profile?user_id=459021) where I implemented various optimizations of the generated code. Recently I've contributed to [yaegi](https://github.com/containous/yaegi/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy), Containous's very own golang interpreter and [i3-status-rust](https://github.com/greshake/i3status-rust/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy) because I love i3wm and wanted to learn a bit of rust !"
 
   [params.information]
     enable = true
