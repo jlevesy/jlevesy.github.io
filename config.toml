@@ -64,7 +64,7 @@ theme = "devresume"
       details = "Strong problem solver"
 
     [[params.skills.list]]
-    title = "Things I would be happy to work with"
+    title = "Things I'm interested in"
 
       [[params.skills.list.items]]
       details = "Rust"
@@ -99,7 +99,7 @@ theme = "devresume"
       company = "Containous"
       location = "Lyon"
       link = "https://containo.us"
-      details = "Involved in the Traefik Enterprise team, I contributed to a large majority of the features embedded in the product. I proposed and implemented many improvements on it and impacted positively its reliability. For instance, I lead various efforts like setting up an end to end testing framework or the systematic writing of unit tests. I am also very involved with the support team and regulary participate on client facing calls. Containous is my first experience in a truly distributed and multicultural company where clear communication and inclusion are a must, and I have to say that I'm loving this kind of environement."
+      details = "Involved in the Traefik Enterprise team, I contributed to a large majority of the features embedded in the product. I proposed and implemented many improvements on it and impacted positively its reliability. For instance, I lead various efforts like setting up an end to end testing framework or the systematic writing of unit tests. I am also very involved with the support team and regulary participate on client facing calls. Containous is my first experience in a truly distributed and multicultural company where clear communication and inclusion are a must, and I have to say that I'm loving this kind of environment."
 
     [[params.experience.list]]
       title = "Software Engineer / SRE"
@@ -149,7 +149,7 @@ theme = "devresume"
     [[params.projects.list]]
     title = "Sind (Swarm In Docker)"
     meta = "golang"
-    tagline = "Inspired by all the work done in the Kubernetes echosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environement, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. [Check it out](https://github.com/jlevesy/sind), proposals welcomed!"
+    tagline = "Inspired by all the work done in the Kubernetes echosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environment, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind, proposals welcomed!"
 
     [[params.projects.list]]
     title = "Various Open Source Contributions"
