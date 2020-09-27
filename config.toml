@@ -149,7 +149,7 @@ theme = "devresume"
     [[params.projects.list]]
     title = "Sind (Swarm In Docker)"
     meta = "golang"
-    tagline = "Inspired by all the work done in the Kubernetes echosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environment, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind, proposals welcomed!"
+    tagline = "Inspired by all the work done in the Kubernetes ecosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environment, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind, proposals welcomed!"
 
     [[params.projects.list]]
     title = "Various Open Source Contributions"
@@ -172,7 +172,7 @@ theme = "devresume"
     title = "jlevesy"
     [[params.social.list]]
     icon = "fab fa-linkedin"
-    url = "//linkedin.com/in/jlevesy"
+    url = "//linkedin.com/in/julien-levesy-5b80ab149/"
     title = "jlevesy"
     [[params.social.list]]
     icon = "fab fa-twitter-square"
