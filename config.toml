@@ -13,12 +13,12 @@ theme = "devresume"
   [params.profile]
     enable = true
     name = "Julien Levesy"
-    tagline = "Software Engineer"
+    tagline = "Senior Software Engineer"
     avatar = "avatar.jpg"
 
   [params.summary]
     enable = true
-    text = "Product centered software engineer who loves to learn and adapt. I'm dedicated to building meaningful and reliable products, from the frontend to the infrastructure and from early stage proposals to production, including customer support! I strongly believe that teamwork and communication are essential to a successful product. Having lived abroad and traveled a lot, I'm especially at ease with (and definitely looking for!) multicultural and diverse work environments. If you think that I might be a fit, feel free to contact me! I'll always be happy to talk to you!"
+    text = "Product centered software engineer who loves to learn and adapt, I am dedicated to build meaningful and reliable products, from the frontend to the infrastructure and from early stage proposals to production, not to forget customer support! I am a strong believer in teamwork and collective intelligence. Having lived abroad and traveled a lot, I am especially at ease with (and definitely looking for!) multicultural and diverse work environments. If you think that I might be a fit, feel free to contact me! I will be happy to talk to you!"
 
   [params.contact]
     enable = true
@@ -41,15 +41,11 @@ theme = "devresume"
       [[params.skills.list.items]]
       details = "Golang"
       [[params.skills.list.items]]
-      details = "Ruby"
+      details = "Kubernetes, Containers, GCP"
       [[params.skills.list.items]]
-      details = "Container orchestration (Kubernetes)"
+      details = "CI/CD, Automation, GitHub Actions"
       [[params.skills.list.items]]
-      details = "Automation"
-      [[params.skills.list.items]]
-      details = "Production Systems"
-      [[params.skills.list.items]]
-      details = "Linux and System administration"
+      details = "Platform, Infrastructure and Monitoring"
 
     [[params.skills.list]]
     title = "Professional"
@@ -65,15 +61,13 @@ theme = "devresume"
     title = "Things I'm interested in"
 
       [[params.skills.list.items]]
-      details = "Databases"
+      details = "Cycling, Bikepacking"
       [[params.skills.list.items]]
-      details = "Cycling"
+      details = "Travels"
       [[params.skills.list.items]]
       details = "Photography"
       [[params.skills.list.items]]
       details = "Climbing"
-      [[params.skills.list.items]]
-      details = "Travels"
 
   [params.languages]
     enable = true
@@ -100,12 +94,20 @@ theme = "devresume"
     enable = true
 
     [[params.experience.list]]
+      title = "Senior Platform engineer"
+      dates = "2022 - Now"
+      company = "Voi"
+      location = "Lyon / Stockholm"
+      link = "https://voi.com"
+      details = "As part of the VOI Platform team, I am in charge of maintaining the platform and tooling that supports the VOI way of working, from the core infrastructure on GCP, to the CI/CD pipeline (GitHub Actions and ArgoCD), through monitoring (Prometheus, Grafana and Mimir). In less than a year, I have accomplished amongst other things the successful zero downtime migration of our workload to separate namespaces and the rollout of [Grafana Mimir](https://grafana.com/oss/mimir/) as our metric storage backend. My proficiency with Go and Kubernetes allowed me to make meaningful contributions across our application stack and to be recognized as a technical reference in our organization. This is also a very productive period for me as an open source developer as my position inspired me many side projects like [kudo](https://github.com/jlevesy/kudo), a Kubernetes controller that allows to implement secure permission escalation, and [kxds](https://github.com/jlevesy/kxds), a control plane for gRPC xDS service discovery. I also won the [second prize of the Traefik 3.0 Haekathon](https://traefik.io/blog/meet-your-hackaethon-winners/) with my work integrating SPIFFE with Traefik. Last but not least, I implemented an [highly available solution to push metrics to Mimir using Prometheus Agents and Kubernetes Leader Election](https://github.com/jlevesy/prometheus-elector) which got [very good feedback](https://github.com/prometheus/prometheus/issues/11665#issuecomment-1340781321) from the Prometheus maintainers. For more information see the project section."
+
+    [[params.experience.list]]
       title = "VP of Engineering"
-      dates = "2020 - Now"
+      dates = "2020 - 2022"
       company = "Upfluence"
       location = "Lyon"
       link = "https://upfluence.com"
-      details = "While still being involved on a daily basis at a technical level, this position is also the first time I am assuming a leadership role in a team. On the technical side, I wrote amongst other things the support for Instagram stories, an ETL pipeline for email analysis, performed various infrastructure updates and contributed to major new features of the platform. As a team leader, I succesfully set up a developement workflow from the feature inception to production. This contribution greatly improved the team productity while ensuring an acceptable workload and provides a better visibility to other stakeholders of the company."
+      details = "While still being involved on a daily basis at a technical level, this position was also the first time I assumed a leadership role in a team. On the technical side, I wrote amongst other things the support for Instagram stories, an ETL pipeline for email analysis, performed various infrastructure updates and contributed to major new features of the platform. As a team leader, I succesfully set up a developement workflow from the feature inception to production. This contribution greatly improved the team productity while ensuring an acceptable workload and provides a better visibility to other stakeholders of the company."
 
     [[params.experience.list]]
       title = "Teacher"
@@ -113,7 +115,7 @@ theme = "devresume"
       company = "ENSG"
       location = "Lyon"
       link = "https://cicd-lectures.github.io/slides/"
-      details = "For a couple of years, with @DamienDuportal we have been giving a 3 days lecture to a MSc level group of students related to CI and CD, tests and \"good\" practices of software developement. This lecture aims to be the more practical possible and relies on SaaS tools like gitpod for students development environments and GitHub actions as CI/CD engine to ensure that."
+      details = "For a couple of years, with [@DamienDuportal](https://github.com/dduportal), we have been giving a 3 days lecture to a MSc level group of students related to CI and CD, tests and \"good\" practices of software developement. This lecture aims to be the more practical possible and relies on SaaS tools like gitpod for students development environments and GitHub actions as CI/CD engine to ensure that. You can find the slides [here](https://cicd-lectures.github.io/slides/), (only in French)."
 
     [[params.experience.list]]
       title = "Senior Software Engineer"
@@ -129,7 +131,7 @@ theme = "devresume"
       company = "Vivlio"
       link = "https://vivlio.com"
       location = "Lyon"
-      details = "Started first as Software developer, my previous experience with server management made me quickly get involved with the operations as well. I was put in charge of important subjects like moving our ecommerce websites to HTTPS, rewriting and extending several applications as developper and deploying a whole new monitoring system based on Datadog. I also had the opportunity to teach an intern during my time and I found it to be a rewarding experience."
+      details = "Hired initially as backend developer, my previous experience with server management quickly got me involved with the operations as well. I was put in charge of important subjects like moving our ecommerce websites to HTTPS, rewrote, extended several applications and deployed a whole new monitoring system based on Datadog. I also had the opportunity to teach an intern during my time and I found it to be a rewarding experience."
 
     [[params.experience.list]]
       title = "Software Engineer"
@@ -137,7 +139,7 @@ theme = "devresume"
       company = "Upfluence"
       link = "https://upfluence.com"
       location = "Lyon / San Francisco"
-      details = "As the first company employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finaly lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm proud to see that many years later, Upfluence is a successful company and some of my code is still running at its core"
+      details = "As the company's first employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finaly lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm proud to see that many years later, Upfluence is a successful company and some of my code is still running at its core"
 
     [[params.experience.list]]
       title = "Software Engineer"
@@ -145,7 +147,7 @@ theme = "devresume"
       company = "Worldline by Atos"
       location = "Lyon"
       link = "https://worldline.com/"
-      details = "Worked as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like [this presentation](https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation) as I understood how important it is on projects of this scale."
+      details = "Hired as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like [this presentation](https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation) as I understood how important it is on projects of this scale."
 
     [[params.experience.list]]
       title = "Junior Software Engineer"
@@ -153,10 +155,33 @@ theme = "devresume"
       company = "AwoX"
       location = "Montpellier"
       link = "https://awox.com/"
-      details = "First experience as software engineer, I had two primary missions in that position. First was to build middleware and user interface application for a \"second screen\" set top box system, using DLNA, linux and web technologies. Second was to build a multiplatform desktop application dedicated to control Awox Striim series devices. It features a DLNA control point, and also custom features like devices zoning and lighting control over network."
+      details = "I had two primary missions in that position: First was to build middleware and user interface application for a \"second screen\" set top box system, using DLNA, linux and web technologies. Second was to build a multiplatform desktop application dedicated to control Awox Striim series devices. It featured a DLNA control point, and also custom features like devices zoning and lighting control over network."
 
   [params.projects]
     enable = true
+
+    [[params.projects.list]]
+    title = "Kudo"
+    meta = "golang kubernetes controller rbac"
+    tagline = "Kudo is a side project inspired by my work at VOI. It is a Kubernetes controller that allows to implement secure permission escalations for workload and users. It is designed as an extension of the Kubernetes RBAC API and allows to declare policies defining a fine grained permission escalation scheme. Check out the [repository](https://github.com/jlevesy/kudo) and the [documentation website](https://jlevesy.github.io/kudo/docs)."
+
+    [[params.projects.list]]
+    title = "kXDS"
+    meta  = "golang Kubernetes grpc xds"
+    link = "https://github.com/jlevesy/kxds"
+    tagline = "kXDS is a Kubernetes native xDS control plane for gRPC. Modern versions of gRPC includes [an extensive support of Envoy's xDS protocol](https://grpc.github.io/grpc/cpp/md_doc_grpc_xds_features.html) which allows to implement advanced service to service traffic routing without relying on an external reverse proxy: everything is embedded in the client. Unfortunately there are very few control planes available that supports this feature. As a consequence, I started to write kXDS as an attempt to provide a Kubernetes native control plane which allows to provide an advanced routing configuration to gRPC clients using a Kubernetes custom resource. Check out the [repository](https://github.com/jlevesy/kxds) as well as the [available examples](https://github.com/jlevesy/kxds/blob/main/example/k8s/echo-server/1-grpc-service.yaml)."
+
+    [[params.projects.list]]
+    title = "SPIRE + Traefik"
+    meta = "golang traefik spire"
+    link = "https://github.com/jlevesy/spire-testbed"
+    tagline = "During my time at VOI, I had the opportunity to explore SPIRE as a way to provide strong verifiable identity to our workload and enable end to end encryption via TLS and mTLS from the web browser to the database. One of the pain points we identified is the first hop between the ingress controller and an HTTP API server. After investigating a bit, I started to build a [testbed](https://github.com/jlevesy/spire-testbed) which allowed me to develop a working proof of concept for making Traefik compatible with SPIRE. I then decided to [open a proposal](https://github.com/traefik/traefik/issues/9376) and turned my proof of concept into a successful [contribution](https://github.com/traefik/traefik/pull/9394) that got me the [second prize of the Traefik 3.0 Haekathon](https://traefik.io/blog/meet-your-hackaethon-winners)."
+
+    [[params.projects.list]]
+    title = "Prometheus Elector"
+    meta = "golang prometheus kubernetes leader election"
+    link = "https://github.com/jlevesy/prometheus-elector"
+    tagline = "One of the topics I had to work on at VOI is the deployment of Mimir as a metrics storage backend to use accross all our Kubernetes cluster. One challenge we had to solve is how to have multiple agents per monitored clusters to guarantee high availability on the agent side. The solution built into Mimir is to run a server side deduplication of the pushed samples which requires running an etcd cluster. I didn't find this satisfying (because etcd is a complex beast to run) so, I went on and wrote prometheus-elector which allows to run a kubernetes leader election accross multiple replicas of prometheus and make sure that only the leader is actually pushing samples to Mimir. Check out the [repository](https://github.com/jlevesy/prometheus-elector)."
 
     [[params.projects.list]]
     title = "Traefik Enterprise Edition"
@@ -164,19 +189,14 @@ theme = "devresume"
     tagline = "Traefik Enterprise Edition is a natively distributed verion of [Traefik](https://traefik.io) the open source edge router. Leveraging Docker's very own Swarmkit at its core, it provides all the features of the open source version plus several advanced features like native authentication and authorization systems, distributed rate limiting and recently the integration of Traefik Labs service mesh implementation, [Maesh](https://mae.sh). More information can be found on [Traefik lab's website](https://traefik.io/traefik-enterprise)"
 
     [[params.projects.list]]
-    title = "Upfluence Search Engine"
-    meta = "golang ruby python elasticsearch coreos"
-    tagline = "The Upfluence search engine allows to easily identify relevant influencers to your brand, get in touch with them, efficiently define an implement an advertising campaign and to finish, easily measure its reach and impact."
-
-    [[params.projects.list]]
     title = "Sind (Swarm In Docker)"
-    meta = "golang"
-    tagline = "Inspired by all the work done in the Kubernetes ecosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environment, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind"
+    meta = "golang docker"
+    tagline = "Inspired by all the work done in the Kubernetes ecosystem and motivated by the fact that we needed for TraefikEE an easy way to create multi nodes swarm environments, I decided to build Sind which is a CLI tool to easily create multi node swarm clusters on top of a docker daemon. Check it out at https://github.com/jlevesy/sind"
 
     [[params.projects.list]]
     title = "Various Opensource Contributions"
     meta = "golang rust c++"
-    tagline = "The contributions I'm most proud of are the one I did on [firefox's javascript JIT engine](https://bugzilla.mozilla.org/user_profile?user_id=459021) where I implemented various optimizations of the generated code. Recently I've contributed to [yaegi](https://github.com/containous/yaegi/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy), Traefik Labs's very own golang interpreter and [i3-status-rust](https://github.com/greshake/i3status-rust/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy) because I love i3wm and wanted to learn a bit of rust !"
+    tagline = "The contributions I'm most proud of are the one I did on [firefox's javascript JIT engine](https://bugzilla.mozilla.org/user_profile?user_id=459021) where I implemented various optimizations of the generated code. I've contributed to [yaegi](https://github.com/containous/yaegi/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy), Traefik Labs's very own golang interpreter and [i3-status-rust](https://github.com/greshake/i3status-rust/pulls?q=is%3Apr+is%3Aclosed+author%3Ajlevesy) because I love i3wm and wanted to learn a bit of rust !"
 
   [params.social]
     enable = true
