@@ -7,5 +7,5 @@ dev:
 		--user $(shell id -u):$(shell id -g) \
 		-p 1313:1313 \
 		-v $(PWD):/src\
-		klakegg/hugo:0.74.3-alpine \
+		klakegg/hugo:0.107.0-alpine \
 		serve
