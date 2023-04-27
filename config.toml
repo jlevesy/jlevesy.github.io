@@ -107,7 +107,7 @@ theme = "devresume"
       company = "Upfluence"
       location = "Lyon"
       link = "https://upfluence.com"
-      details = "While still being involved on a daily basis at a technical level, this position was also the first time I assumed a leadership role in a team. On the technical side, I wrote amongst other things the support for Instagram stories, an ETL pipeline for email analysis, performed various infrastructure updates and contributed to major new features of the platform. As a team leader, I succesfully set up a developement workflow from the feature inception to production. This contribution greatly improved the team productity while ensuring an acceptable workload and provides a better visibility to other stakeholders of the company."
+      details = "While still being involved on a daily basis at a technical level, this position was also the first time I assumed a leadership role in a team. On the technical side, I wrote amongst other things the support for Instagram stories, an ETL pipeline for email analysis, performed various infrastructure updates and contributed to major new features of the platform. As a team leader, I successfully set up a development workflow from the feature inception to production. This contribution greatly improved the team productivity while ensuring an acceptable workload and provides a better visibility to other stakeholders of the company."
 
     [[params.experience.list]]
       title = "Teacher"
@@ -115,7 +115,7 @@ theme = "devresume"
       company = "ENSG"
       location = "Lyon"
       link = "https://cicd-lectures.github.io/slides/"
-      details = "For a couple of years, with [@DamienDuportal](https://github.com/dduportal), we have been giving a 3 days lecture to a MSc level group of students related to CI and CD, tests and \"good\" practices of software developement. This lecture aims to be the more practical possible and relies on SaaS tools like gitpod for students development environments and GitHub actions as CI/CD engine to ensure that. You can find the slides [here](https://cicd-lectures.github.io/slides/), (only in French)."
+      details = "For a couple of years, with [@DamienDuportal](https://github.com/dduportal), we have been giving a 3 days lecture to a MSc level group of students related to CI and CD, tests and \"good\" practices of software development. This lecture aims to be the more practical possible and relies on SaaS tools like gitpod for students development environments and GitHub actions as CI/CD engine to ensure that. You can find the slides [here](https://cicd-lectures.github.io/slides/), (only in French)."
 
     [[params.experience.list]]
       title = "Senior Software Engineer"
@@ -123,7 +123,7 @@ theme = "devresume"
       company = "Traefik Labs"
       location = "Lyon"
       link = "https://traefik.io"
-      details = "Involved in the Traefik Enterprise team, I contributed to numerous features embedded in the product. I proposed and implemented many improvements on it and impacted positively its reliability. For instance setting up an end to end testing framework or the systematic writing of unit tests. I was also very involved with the support team and regulary participated to client facing calls. Traefik Labs was my first experience in a truly distributed and multicultural company where clear communication and inclusion are a must, and I have to say that I loved this kind of environment."
+      details = "Involved in the Traefik Enterprise team, I contributed to numerous features embedded in the product. I proposed and implemented many improvements on it and impacted positively its reliability. For instance setting up an end to end testing framework or the systematic writing of unit tests. I was also very involved with the support team and regularly participated to client facing calls. Traefik Labs was my first experience in a truly distributed and multicultural company where clear communication and inclusion are a must, and I have to say that I loved this kind of environment."
 
     [[params.experience.list]]
       title = "Software Engineer"
@@ -139,7 +139,7 @@ theme = "devresume"
       company = "Upfluence"
       link = "https://upfluence.com"
       location = "Lyon / San Francisco"
-      details = "As the company's first employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finaly lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex applicative stack involving numerous microservices written in 4 major differents languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm proud to see that many years later, Upfluence is a successful company and some of my code is still running at its core"
+      details = "As the company's first employee, I was involved in a small distributed team between Lyon and San Francisco. We built from scratch multiple products centered around content marketing and native advertising and it finally lead the Upfluence software to be one of the most powerful influencer search engine available. My position was fullstack developer and I worked on a complex application stack involving numerous microservices written in 4 major different languages, golang included. This was also my first experience with production and gave me the opportunity to learn cutting edge subjects like containers, orchestration and distributed systems. I'm proud to see that many years later, Upfluence is a successful company and some of my code is still running at its core"
 
     [[params.experience.list]]
       title = "Software Engineer"
@@ -147,7 +147,7 @@ theme = "devresume"
       company = "Worldline by Atos"
       location = "Lyon"
       link = "https://worldline.com/"
-      details = "Hired as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and beeing able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like [this presentation](https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation) as I understood how important it is on projects of this scale."
+      details = "Hired as developer on a complex application built to refund clients in case of bank bankruptcy. It involved complex business rules and being able to handle an important amount of open cases. This was my first experience as web developer, in a large team and in a large company. I gave various talks about test driven development, like [this presentation](https://worldline.github.io/bfi-ecs-coding-dojo/tdd-01/presentation) as I understood how important it is on projects of this scale."
 
     [[params.experience.list]]
       title = "Junior Software Engineer"
