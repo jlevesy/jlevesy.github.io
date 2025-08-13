@@ -94,8 +94,16 @@ theme = "devresume"
     enable = true
 
     [[params.experience.list]]
+      title = "Senior Software Engineer"
+      dates = "2025 - Now"
+      company = "Exatrack"
+      location = "Dieppe / Paris (Remote)"
+      link = "https://exatrack.com"
+      details = "Currently working on the backend and the infrastructure of https://exalyze.io. Developped the frontend (HTML, Bootstrap) and a large part of the backend application backend logic. I also lead the effort on automation (using Gitlab CI, Docker Swarm and Ansible) making as easy as possible to deploy the application. I also greatly improved the platform observability by setting up systematic application monitoring using Prometheus, Loki and Grafana."
+
+    [[params.experience.list]]
       title = "Senior Platform engineer"
-      dates = "2022 - Now"
+      dates = "2022 - 2025"
       company = "Voi"
       location = "Lyon / Stockholm"
       link = "https://voi.com"
@@ -159,6 +167,11 @@ theme = "devresume"
 
   [params.projects]
     enable = true
+
+    [[params.projects.list]]
+    title = "Exalyze"
+    meta = "python postgresSQL grpc docker swarm"
+    tagline = "[Exalyze](https://exalyze.io) is an online malware analysis platform, it allows in a few seconds to disassemble and analyze an unknown sample. It features a state of the art sample search engine based on [Machoc Hashing](https://github.com/ANSSI-FR/polichombr/blob/2fa9702fca21c22b68c89a98de692ccd0fa48e1d/docs/MACHOC_HASH.md) allowing to find similar samples instantaneously."
 
     [[params.projects.list]]
     title = "Kudo"
